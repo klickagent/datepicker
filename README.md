@@ -1,27 +1,31 @@
 # Dev:
 ## install
 git clone https://github.com/klickagent/datepicker.git<br/>
-cd datepicker
-npm install
+cd datepicker<br/>
+npm install<br/>
 
 ## run local:
-ng serve
+ng serve<br/>
 => http://localhost:4200/
 
 ## deploy to github documents
-ng build --base-href /datepicker --deploy-url /datepicker
+ng build --base-href /datepicker --deploy-url /datepicker<br/>
 ### then commit docs folder to github
-git add .
-git commit -m "new build"
-git push
-=> https://klickagent.github.io/datepicker/
+git add .<br/>
+git commit -m "new build"<br/>
+git push<br/>
+=> https://klickagent.github.io/datepicker/<br/>
 
 
 
 
 
 
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 
