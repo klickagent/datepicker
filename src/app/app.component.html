@@ -1,0 +1,9 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    Datetime selected<br/> {{datetime}}
+  
+</div>
+
+<!-- tpdp: selectionMode range support -->
+<owl-date-time [(ngModel)]="this.datetime" [selectionMode]="'single'" [autoClose]="false" [placeHolder]="'Von'" [dateFormat]="'DD.MM.YYYY HH:mm'" [readonlyInput]="false" [required]="true" (onFocus)="focusDateInSidebar()" (onClose)="blurDateInSidebar()" (ngModelChange)="changeEvent()"></owl-date-time>
+
