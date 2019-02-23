@@ -1,3 +1,30 @@
+# Dev:
+## install
+git clone https://github.com/klickagent/datepicker.git
+cd datepicker
+npm install
+
+## run local:
+ng serve
+=> http://localhost:4200/
+
+## deploy to github documents
+ng build --base-href /datepicker --deploy-url /datepicker
+### then commit docs folder to github
+git add .
+git commit -m "new build"
+git push
+=> https://klickagent.github.io/datepicker/
+
+
+
+
+
+
+
+
+
+
 # DatepickerApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
