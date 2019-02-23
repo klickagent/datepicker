@@ -1,6 +1,6 @@
 # Dev:
 ## install
-git clone https://github.com/klickagent/datepicker.git
+git clone https://github.com/klickagent/datepicker.git<br/>
 cd datepicker
 npm install
 
